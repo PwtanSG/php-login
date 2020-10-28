@@ -5,7 +5,7 @@ $user_email = $_POST["user_email"];
 $user_password = $_POST["user_password"];
 
 //$user_email = "jamesraj@tvi.com";
-//$user_password = "12345";
+//$user_password = "123456";
 
 $sql = "select name from user where email = '$user_email' and password ='$user_password'";
 
